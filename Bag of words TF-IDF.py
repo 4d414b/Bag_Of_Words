@@ -1,16 +1,5 @@
 import pandas as pd
 
-# If you do not already have the data locally you may download (and save) by
-
-file_location = 'https://gitlab.com/michaelallen1966/00_python_snippets' +\
-    '_and_recipes/raw/master/machine_learning/data/IMDb.csv'
-imdb = pd.read_csv(file_location)
-# save to current directory
-imdb.to_csv('imdb.csv', index=False)
-
-# If you already have the data locally then you may run the following
-
-# Load data example
 imdb = pd.read_csv('imdb.csv')
 
 # Truncate data for example if you want to speed up the example
